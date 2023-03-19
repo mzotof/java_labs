@@ -24,7 +24,7 @@ public class BoolMatrix {
         BoolMatrix result = new BoolMatrix(this.rows, this.cols);
         for (int i = 0; i < this.rows; i++) {
             for (int j = 0; j < this.cols; j++) {
-                result.matrix[i][j] = this.matrix[i][j] || other.matrix[i][j];
+                result.matrix[i][j] = this.matrix[i][j] | other.matrix[i][j];
             }
         }
         return result;
@@ -37,7 +37,7 @@ public class BoolMatrix {
         BoolMatrix result = new BoolMatrix(this.rows, other.cols);
         for (int i = 0; i < this.rows; i++) {
             for (int j = 0; j < this.cols; j++) {
-                result.matrix[i][j] = this.matrix[i][j] && other.matrix[i][j];
+                result.matrix[i][j] = this.matrix[i][j] & other.matrix[i][j];
             }
         }
         return result;
