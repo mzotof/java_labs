@@ -1,7 +1,8 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
+//Входной файл содержит совокупность строк. Строка файла содержит строку квадратной матрицы. Ввести матрицу в
+// двумерный массив (размер матрицы найти). Вывести исходную матрицу и результат ее транспонирования.
 public class var3_ex9 {
     public static void main(String[] args) {
         String inputFilePath = "var3_ex9.txt";

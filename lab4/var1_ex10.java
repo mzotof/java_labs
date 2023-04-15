@@ -1,5 +1,6 @@
 import java.util.ArrayList;
-
+// Создать класс Cinema (кино) с внутренним классом, с помощью объектов которого можно хранить
+// информацию об адресах кинотеатров, фильмах и времени сеансов.
 class Cinema {
     private final ArrayList<String> addresses = new ArrayList<>();
     private final ArrayList<Movie> movies = new ArrayList<>();

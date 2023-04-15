@@ -1,5 +1,6 @@
 import java.util.Stack;
-
+//Дана матрица из целых чисел. Найти в ней прямоугольную подматрицу, состоящую из максимального количества одинаковых
+// элементов. Использовать класс Stack.
 public class var2_ex9 {
     public static int[] findMaxRectangularSubmatrix(int[][] matrix) {
         int numRows = matrix.length;
@@ -28,7 +29,7 @@ public class var2_ex9 {
 
     public static int[] findMaxRectangularSubarray(int[] heights) {
         int numCols = heights.length;
-        Stack<Integer> stack = new Stack<Integer>();
+        Stack<Integer> stack = new Stack<>();
         int[] left = new int[numCols];
         int[] right = new int[numCols];
 

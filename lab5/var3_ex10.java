@@ -1,7 +1,9 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
+//Входной файл хранит квадратную матрицу по принципу: строка представляет собой число. Определить размерность.
+// Построить 2-мерный массив, содержащий матрицу. Вывести исходную матрицу и результат ее поворота на 90 градусов
+// по часовой стрелке.
 public class var3_ex10 {
     public static void main(String[] args) {
         String inputFilePath = "var3_ex10.txt";

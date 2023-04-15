@@ -1,3 +1,5 @@
+//На прямой гоночной трассе стоит N автомобилей, для каждого из которых известны начальное положение и скорость.
+// Определить, сколько произойдет обгонов.
 public class var2_ex10 {
     public static int countOvertakings(int[] positions, int[] speeds) {
         int numCars = positions.length;

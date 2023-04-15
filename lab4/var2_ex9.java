@@ -1,4 +1,5 @@
-// Интерфейс Furniture
+// Реализовать абстрактные классы или интерфейсы, а также наследование и полиморфизм для следующих классов
+// interface Мебель <- abstract class Шкаф <- class Книжный Шкаф.
 interface Furniture {
     void move();
     void disassemble();

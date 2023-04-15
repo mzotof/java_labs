@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
-
+// Создать класс Park (парк) с внутренним классом, с помощью объектов которого можно хранить
+// информацию об аттракционах, времени их работы и стоимости.
 class Park {
     private final List<Attraction> attractions;
 

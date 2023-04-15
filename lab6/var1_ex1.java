@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
-
+//Определить множество на основе множества целых чисел. Создать методы для определения пересечения и объединения множеств.
 class IntSet {
     private final Set<Integer> set;
 

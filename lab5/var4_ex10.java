@@ -4,7 +4,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-
+//Ввести из текстового файла, связанного с входным потоком, последовательность строк. Выбрать и сохранить m последних
+// слов в каждой из последних n строк
 public class var4_ex10 {
 
     public static void main(String[] args) {

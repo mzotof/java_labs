@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
-
+//Прочитать строки из файла и поменять местами первое и последнее слова в каждой строке.
 public class var4_ex9 {
     public static void main(String[] args) {
         File inputFile = new File("var4_ex9.txt");
