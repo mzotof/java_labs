@@ -16,8 +16,6 @@ public class var4_ex10 {
         int n = in.nextInt();
         System.out.print("Enter m: ");
         int m = in.nextInt();
-        System.out.println("Enter input file name:");
-        String file_name = in.nextLine();
         File inputFile = new File("var4_ex9.txt");
         try {
             FileReader fileReader = new FileReader(inputFile);
